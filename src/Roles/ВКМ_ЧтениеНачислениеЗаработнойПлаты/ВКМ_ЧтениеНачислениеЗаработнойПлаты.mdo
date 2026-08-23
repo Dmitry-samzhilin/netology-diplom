@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="670ef0be-2016-48f1-8da1-419fe3cf0618">
+  <name>ВКМ_ЧтениеНачислениеЗаработнойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение начисление заработной платы</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 11.08.2026</comment>
+</mdclass:Role>

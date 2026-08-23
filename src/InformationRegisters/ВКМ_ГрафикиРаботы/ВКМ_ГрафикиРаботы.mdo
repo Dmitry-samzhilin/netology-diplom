@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd561fd6-d00b-448f-bca1-858fdf4a255c">
+  <producedTypes>
+    <selectionType typeId="f974a48c-e4a7-4093-8c9f-3b0d35e5b0c2" valueTypeId="497cfb37-486d-4eb8-944e-fd66f4ab70a5"/>
+    <listType typeId="9367e48c-5e43-49dc-8bf7-3e5fe02f17d5" valueTypeId="c3cd6b00-12ff-4a25-b328-77ef59bce87e"/>
+    <managerType typeId="9be501b8-e42b-4acd-b102-36a8b6944d4d" valueTypeId="44b4573e-760b-4067-b6d1-b952b8d74ce7"/>
+    <recordSetType typeId="af438a6c-4197-4701-9b68-db8859d84426" valueTypeId="ec8a1a15-fc02-47da-b0c9-fbc85a02207a"/>
+    <recordKeyType typeId="eb2c862a-1e03-4bd5-b1f5-b1a7b7a07db2" valueTypeId="b17223c0-d474-4cc9-ac49-1170f49c67c4"/>
+    <recordType typeId="3cc4fb76-94c4-4907-95bd-7ed1a96140b9" valueTypeId="6bb467b3-e547-4a3f-8397-39eeb7e3537a"/>
+    <recordManagerType typeId="f818320e-f55b-4d59-ab22-475c9b60d83c" valueTypeId="6081f3b6-acc5-4c01-8586-d2c600830004"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 04.08.2026</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5b4cb88e-fd4c-46cd-9230-0ee61d7d559f">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2e2f3865-3afa-4520-8d41-311b3b51530c">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0be540a3-32f3-4bbc-bed5-cbb8afc76230">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

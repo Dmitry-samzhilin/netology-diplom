@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fab96118-af0e-40c9-8b86-d48d907b5cd0">
+  <name>ВКМ_РаботаСВидамиРасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с видами расчетов</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 11.08.2026</comment>
+</mdclass:Role>

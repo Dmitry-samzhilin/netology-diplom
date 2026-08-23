@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f013a5fe-8d55-4f23-a525-9cd8b145d0fa">
+  <name>ВКМ_ЧтениеГрафикОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение график отпусков</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 11.08.2026</comment>
+</mdclass:Role>

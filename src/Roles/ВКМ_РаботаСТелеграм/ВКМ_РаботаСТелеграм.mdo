@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c658acf-e13e-4444-899a-214ecfce2fdc">
+  <name>ВКМ_РаботаСТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с телеграм</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 28.07.2026</comment>
+</mdclass:Role>

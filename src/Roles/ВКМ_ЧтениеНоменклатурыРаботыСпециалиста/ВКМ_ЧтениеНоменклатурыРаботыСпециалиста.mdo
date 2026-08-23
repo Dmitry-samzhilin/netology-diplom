@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3b7de63-5ec8-4971-8942-39f27298acee">
+  <name>ВКМ_ЧтениеНоменклатурыРаботыСпециалиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение номенклатуры работы специалиста</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 28.07.2026</comment>
+</mdclass:Role>

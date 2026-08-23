@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16fa2678-627d-4398-bb40-b2ee874f4faf">
+  <producedTypes>
+    <selectionType typeId="d01a207e-ff79-46b4-aef1-10582764d2f9" valueTypeId="9d58d0a9-b296-4910-ac89-c7451bc8120e"/>
+    <listType typeId="7893ab51-5126-46b8-8025-2de14d51f874" valueTypeId="b9855ce2-32f5-49cd-8088-6b43f6893030"/>
+    <managerType typeId="4ad71ca7-7567-4406-9d6d-9b41abf3a932" valueTypeId="2cdacbfb-a500-4171-82ca-5f34f13d5b22"/>
+    <recordSetType typeId="52b68924-6ecf-4b14-87c2-69b06bbc0948" valueTypeId="91ab539d-e3c3-4b77-a596-42b1572875de"/>
+    <recordKeyType typeId="75c59e10-3a91-44be-8239-0e223e7c286e" valueTypeId="b15df585-ed68-4a11-ae29-8a422f90b82f"/>
+    <recordType typeId="9d57b714-4f19-46fa-afc7-76a1abbbba7d" valueTypeId="e5b82790-abfb-4fb8-9af4-2a49abb899b6"/>
+    <recordManagerType typeId="fb28ecb5-b563-4b38-a177-a03131d05d52" valueTypeId="cf5bf37d-7bee-41d9-957e-4d78912a68dc"/>
+  </producedTypes>
+  <name>ВКМ_СтавкиНДФЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки НДФЛ</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 05.08.2026</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3dc02ca8-0031-4d02-bb3f-115479d3eed7">
+    <name>РазмерСтавкиНДФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер ставки НДФЛ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

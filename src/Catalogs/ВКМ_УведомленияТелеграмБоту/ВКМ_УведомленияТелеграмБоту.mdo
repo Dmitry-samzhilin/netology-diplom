@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62fe4304-c89c-499c-b414-e9190a04637d">
+  <producedTypes>
+    <objectType typeId="bf5368a5-fd27-4347-bdc3-fb3c7abd80b2" valueTypeId="259ab27c-fe04-4599-95f8-a52446a0630b"/>
+    <refType typeId="dd9d5fa9-2455-478c-af2b-7e242af34e07" valueTypeId="97461614-6d82-48e0-8b3a-3e454c4e0c83"/>
+    <selectionType typeId="c10f71e7-8c86-4db5-87eb-e6a11c90e679" valueTypeId="a0e42ecf-2322-4bde-bae9-515b8f23a10c"/>
+    <listType typeId="00c78c80-629e-4f3e-b155-9b34ac482d23" valueTypeId="f0c551dc-b81b-4bc9-9f70-3f22f178530d"/>
+    <managerType typeId="e0b2f653-1c78-48fc-a0cf-cf5360363742" valueTypeId="8ff5e042-4ab2-4805-8c74-f1bea188a5b9"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТелеграмБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления телеграм-боту</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 07.07.2026</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="49e161d7-b52b-474f-9ef5-95de068f6e83">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

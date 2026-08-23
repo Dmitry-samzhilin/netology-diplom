@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ace2696-224c-454d-9597-fa2fe7fb8f81">
+  <producedTypes>
+    <managerType typeId="7643e8a8-afcb-4231-b6a0-d06311ea4735" valueTypeId="b1092210-b158-4264-92aa-a72643c177a9"/>
+    <valueManagerType typeId="3949ace8-daa7-495c-b7e1-46abd00d6de9" valueTypeId="814c4c98-ea87-4e57-95f0-452afae7db64"/>
+    <valueKeyType typeId="fc30f11e-d150-4d40-b14b-e60efcfeea29" valueTypeId="384356b6-d928-46e0-97cd-517a1e6a5a9a"/>
+  </producedTypes>
+  <name>ВКМ_НоменклатураАбоненсткаяПлата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура абоненсткая плата</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 16.07.2026</comment>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

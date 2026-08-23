@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82aacecc-7fad-4698-9e54-fd447cc0e7e7">
+  <name>ВКМ_РаботаСОтчетомАнализВыставленныхАктов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с отчетом анализ выставленных актов</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 11.08.2026</comment>
+</mdclass:Role>

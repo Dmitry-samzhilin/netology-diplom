@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a89201db-6789-4016-b4eb-2601eb5725b5">
+  <name>ВКМ_ИзменениеНоменклатурыАбонентскойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение номенклатуры абонентской платы</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 28.07.2026</comment>
+</mdclass:Role>

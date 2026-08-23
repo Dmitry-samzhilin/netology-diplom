@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9319b732-2307-4d8c-9097-bc2323c7aa3e">
+  <name>ВКМ_ПросмотрПодсистемыОбслуживаниеКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр подсистемы обслуживание клиентов</value>
+  </synonym>
+  <comment>(ВКМ) ДОБАВЛЕНИЕ, Самжилин Д.Р., 28.07.2026</comment>
+</mdclass:Role>
